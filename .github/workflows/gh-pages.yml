@@ -20,7 +20,7 @@ jobs:
           hugo-version: 'latest'
           # extended: true
       - name: Disable quotePath
-      run: git config core.quotePath false
+        run: git config core.quotePath false
 
       - name: Build
         run: hugo --minify
